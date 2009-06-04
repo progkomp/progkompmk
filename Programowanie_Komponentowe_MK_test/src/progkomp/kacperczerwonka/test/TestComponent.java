@@ -5,7 +5,9 @@
 
 package progkomp.kacperczerwonka.test;
 
+import java.awt.BorderLayout;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import progkomp.kacperczerwonka.component.MultiplicationTableComponent;
 
@@ -24,11 +26,14 @@ public class TestComponent {
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				JFrame frame = new JFrame ("Test komponentu");
-				MultiplicationTableComponent comp = new MultiplicationTableComponent();
-				frame.add(comp);
+				//MultiplicationTableComponent comp = new MultiplicationTableComponent();
+
+				NewJPanel comp = new NewJPanel();
+				frame.setLayout(new BorderLayout());
+				frame.add(comp,BorderLayout.CENTER);
 				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				frame.pack();
-				frame.setSize(400,400);
+				//frame.setSize(400,400);
 				frame.setVisible(true);
 			}
 		});

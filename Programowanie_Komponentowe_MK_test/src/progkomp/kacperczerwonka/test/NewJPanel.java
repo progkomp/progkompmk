@@ -31,20 +31,37 @@ public class NewJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        multiplicationTableComponent3 = new progkomp.kacperczerwonka.component.MultiplicationTableComponent();
+        multiplicationTableComponent1 = new progkomp.kacperczerwonka.component.MultiplicationTableComponent();
+        multiplicationTableComponent2 = new progkomp.kacperczerwonka.component.MultiplicationTableComponent();
 
-        multiplicationTableComponent3.setFont(new java.awt.Font("Dialog", 3, 12)); // NOI18N
-        multiplicationTableComponent3.setNumbersHorizontally(15);
+        multiplicationTableComponent1.setFont(new java.awt.Font("Dialog", 3, 12)); // NOI18N
+        multiplicationTableComponent1.setNumbersHorizontally(20);
+        multiplicationTableComponent1.setNumbersVertically(20);
 
-        javax.swing.GroupLayout multiplicationTableComponent3Layout = new javax.swing.GroupLayout(multiplicationTableComponent3);
-        multiplicationTableComponent3.setLayout(multiplicationTableComponent3Layout);
-        multiplicationTableComponent3Layout.setHorizontalGroup(
-            multiplicationTableComponent3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 655, Short.MAX_VALUE)
+        javax.swing.GroupLayout multiplicationTableComponent1Layout = new javax.swing.GroupLayout(multiplicationTableComponent1);
+        multiplicationTableComponent1.setLayout(multiplicationTableComponent1Layout);
+        multiplicationTableComponent1Layout.setHorizontalGroup(
+            multiplicationTableComponent1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 575, Short.MAX_VALUE)
         );
-        multiplicationTableComponent3Layout.setVerticalGroup(
-            multiplicationTableComponent3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 495, Short.MAX_VALUE)
+        multiplicationTableComponent1Layout.setVerticalGroup(
+            multiplicationTableComponent1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 570, Short.MAX_VALUE)
+        );
+
+        multiplicationTableComponent2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        multiplicationTableComponent2.setNumbersHorizontally(5);
+        multiplicationTableComponent2.setNumbersVertically(5);
+
+        javax.swing.GroupLayout multiplicationTableComponent2Layout = new javax.swing.GroupLayout(multiplicationTableComponent2);
+        multiplicationTableComponent2.setLayout(multiplicationTableComponent2Layout);
+        multiplicationTableComponent2Layout.setHorizontalGroup(
+            multiplicationTableComponent2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 261, Short.MAX_VALUE)
+        );
+        multiplicationTableComponent2Layout.setVerticalGroup(
+            multiplicationTableComponent2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 252, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -53,21 +70,26 @@ public class NewJPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(multiplicationTableComponent3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(107, Short.MAX_VALUE))
+                .addComponent(multiplicationTableComponent1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(multiplicationTableComponent2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(multiplicationTableComponent3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(multiplicationTableComponent2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(multiplicationTableComponent1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(70, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private progkomp.kacperczerwonka.component.MultiplicationTableComponent multiplicationTableComponent3;
+    private progkomp.kacperczerwonka.component.MultiplicationTableComponent multiplicationTableComponent1;
+    private progkomp.kacperczerwonka.component.MultiplicationTableComponent multiplicationTableComponent2;
     // End of variables declaration//GEN-END:variables
 
 }
